@@ -50,12 +50,12 @@ const Home = () => {
                   className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
                   {
-                    item.namaMhs
+                    item.namaMhs.toUpperCase()
                   }
                 </th>
-                <td className="py-4 px-6">{item.kelas}</td>
-                <td className="py-4 px-6">{item.asal}</td>
-                <td className="py-4 px-6">{item.zodiak}</td>
+                <td className="py-4 px-6">{item.kelas.toUpperCase()}</td>
+                <td className="py-4 px-6">{item.asal.toUpperCase()}</td>
+                <td className="py-4 px-6">{item.zodiak.toUpperCase()}</td>
                 <td className="py-4 px-6 flex gap-5">
                   <Link to={`/edit-mhs/${item._id}`}>
                     <button>

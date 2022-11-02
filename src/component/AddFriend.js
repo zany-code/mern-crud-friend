@@ -32,7 +32,7 @@ const AddFriend = () => {
         <div className=" input-type">
           <input
             type="text"
-            value={namaMhs.toUpperCase()}
+            value={namaMhs}
             onChange={(e) => setNamaMhs(e.target.value)}
             name="namaLengkap"
             className=" border-2 w-full px-5 py-2 focus:outline-none rounded-md"
@@ -42,7 +42,7 @@ const AddFriend = () => {
         <div className=" input-type">
           <input
             type="text"
-            value={kelas.toUpperCase()}
+            value={kelas}
             onChange={(e) => setKelas(e.target.value)}
             name="Kelas"
             className=" border-2 w-full px-5 py-2 focus:outline-none rounded-md"
@@ -52,7 +52,7 @@ const AddFriend = () => {
         <div className=" input-type">
           <input
             type="text"
-            value={asal.toUpperCase()}
+            value={asal}
             onChange={(e) => setAsal(e.target.value)}
             name="asal"
             className=" border-2 w-full px-5 py-2 focus:outline-none rounded-md"
@@ -62,7 +62,7 @@ const AddFriend = () => {
         <div className=" input-type">
           <input
             type="text"
-            value={zodiak.toUpperCase()}
+            value={zodiak}
             onChange={(e) => setZodiak(e.target.value)}
             name="zodiak"
             className=" border-2 w-full px-5 py-2 focus:outline-none rounded-md"
